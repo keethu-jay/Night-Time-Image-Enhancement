@@ -1,0 +1,21 @@
+# Large datasets (use night2day_data.zip locally)
+datasets/night2day/
+datasets/*.zip
+
+# Raw/prepared image data (large)
+night-to-day-translation/data/raw/Finalized_Dark_Zurich/
+night-to-day-translation/data/raw/dark_zurich/
+night-to-day-translation/data/processed/
+# Keep: professor_pair/ (night.jpg, day.jpg - seed images)
+
+# Cloned repo (clone separately: gh repo clone keethu-jay/pytorch-CycleGAN-and-pix2pix)
+pytorch-CycleGAN-and-pix2pix/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+venv/
+.venv/
+env/
