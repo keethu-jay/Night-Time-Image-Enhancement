@@ -126,11 +126,14 @@ Creates `datasets/night2day_data.zip`.
 **Training command:**
 
 ```bash
-cd pytorch-CycleGAN-and-pix2pix
+cd Night-Time-Image-Enhancement
 conda env create -f environment.yml
 conda activate pytorch-img2img
-python train.py --dataroot ./datasets/night2day --name night2day_model --model cycle_gan --no_html
+cd src
+python train.py --dataroot ../datasets/night2day --name night2day_model --model cycle_gan --no_html
 ```
+
+Checkpoints save to `../checkpoints/night2day_model/`.
 
 **Current status:**
 - **Hardware:** NVIDIA RTX 3090
