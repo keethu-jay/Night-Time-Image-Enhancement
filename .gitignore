@@ -11,8 +11,10 @@ night-to-day-translation/data/raw/dark_zurich/
 night-to-day-translation/data/processed/
 # Keep: professor_pair/ (night.jpg, day.jpg - seed images)
 
-# Cloned repo (code now in /src)
-pytorch-CycleGAN-and-pix2pix/
+# Old checkpoints (consolidated to top-level /checkpoints/night2day_model/)
+night-to-day-translation/checkpoints/
+
+# Removed: pytorch-CycleGAN-and-pix2pix (code now in /src)
 
 # Python
 __pycache__/

@@ -13,17 +13,17 @@ Night-to-day image translation using CycleGAN. Data preparation pipeline + train
 
 ## Quick Start
 
-1. **Extract dataset** (if you have `night2day_data.zip`):
-   ```
-   Unzip to datasets/night2day/ with trainA, trainB, testA, testB
-   ```
+1. **Extract dataset** (unzip `night2day_data.zip` to `datasets/night2day/` with trainA, trainB, testA, testB).  
+   Do not keep the .zip in the repo—it's too large for GitHub.
 
-2. **Train** (run from project root):
+2. **Restore checkpoints** (if resuming): Place `.pth` files in `checkpoints/night2day_model/` so the script finds them.
+
+3. **Train** (run from project root):
    ```bash
    cd src
    python train.py --dataroot ../datasets/night2day --name night2day_model --model cycle_gan --no_html
    ```
 
-3. **Checkpoints** save to `../checkpoints/night2day_model/`
+4. **Checkpoints** save to `checkpoints/night2day_model/`
 
 See `night-to-day-translation/README.md` for the full data preparation workflow.
