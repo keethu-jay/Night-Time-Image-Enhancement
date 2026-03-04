@@ -1,6 +1,8 @@
 # Model checkpoints and large binaries
 *.pth
 *.zip
+*.gz
+model_weights for training 1.gz
 
 # Datasets (do not push ~4GB to GitHub; extract night2day locally)
 datasets/

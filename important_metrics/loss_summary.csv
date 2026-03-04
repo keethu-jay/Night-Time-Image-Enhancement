@@ -1,0 +1,6 @@
+metric,typical_range,your_final_value,interpretation
+loss_G_A,0.2 - 0.5,0.608425,High realism / Adversarial success
+loss_cycle_A,0.05 - 0.15,0.317008,Information preservation (Night->Day->Night)
+loss_cycle_B,0.05 - 0.15,0.441818,Information preservation (Day->Night->Day)
+loss_idt_A,0.02 - 0.08,0.122787,"Geometric fidelity (The ""85% rule"")"
+loss_D_A,oscillates,0.095543,Discriminator vs fakes (healthy if not → 0)

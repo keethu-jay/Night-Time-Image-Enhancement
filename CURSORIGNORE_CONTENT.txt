@@ -1,0 +1,16 @@
+# Copy this file to .cursorignore in the project root to prevent OOM from indexing large binaries.
+# In Cursor: create a new file named .cursorignore and paste the lines below (without this header).
+
+*.pth
+*.zip
+*.gz
+*.tar
+checkpoints/
+weights/
+results/
+*.png
+*.jpg
+*.jpeg
+datasets/
+progression/
+web/

@@ -1,0 +1,13 @@
+*.pth
+*.zip
+*.gz
+*.tar
+checkpoints/
+weights/
+results/
+*.png
+*.jpg
+*.jpeg
+# datasets/ removed so testA testB large_test visible for tests
+progression/
+web/

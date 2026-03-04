@@ -1,6 +1,6 @@
 # Night-to-Day Image Translation
 
-A project for translating nighttime images to daytime using CycleGAN and pix2pix. This document describes the complete workflow from data preparation through training, including technical hurdles resolved during setup.
+**Data preparation only.** The model is trained and run on a **virtual GPU** elsewhere; this folder holds the data-prep scripts and seed images (e.g. professor pair). It describes the workflow from raw data through building the `night2day` dataset.
 
 ---
 

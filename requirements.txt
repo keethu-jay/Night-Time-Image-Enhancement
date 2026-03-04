@@ -1,0 +1,15 @@
+# Night-Time Image Enhancement — Python deps (infer from environment.yml + src/scripts)
+# Install: pip install -r requirements.txt
+# For CUDA, install PyTorch from https://pytorch.org first, then pip install -r requirements.txt
+
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.24.0
+Pillow>=10.0.0
+dominate>=2.8.0
+wandb>=0.16.0
+scipy>=1.10.0
+scikit-image>=0.20.0
+opencv-python>=4.8.0
+visdom>=0.2.0
+matplotlib>=3.7.0
